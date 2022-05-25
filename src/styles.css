@@ -1,0 +1,59 @@
+.nav {
+  padding-right: 10px;
+  display: flex;
+  height: 60px;
+  background-color: rgb(78, 78, 78);
+  box-shadow: 2px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav h3 {
+  color: skyblue;
+}
+.navin {
+  align-items: center;
+  display: flex;
+}
+ul {
+  padding: 1rem;
+}
+
+li {
+  color: white;
+}
+
+li::marker {
+  color: red;
+  content: ">";
+}
+
+h1,
+h3,
+h4 {
+  color: white;
+}
+
+body {
+  background-color: black;
+}
+.main {
+  background-image: url(../public/logo192.png);
+  padding: 10px;
+  flex: 1;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+h4 {
+  margin: 10px;
+}
+
+.tempname {
+  background-color: blueviolet;
+}

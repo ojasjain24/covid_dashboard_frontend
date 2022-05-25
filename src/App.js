@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./styles.css";
+import Navbar from "./Navbar";
+import AverageChart from "./AverageChart";
+import DailyChart from "./DailyChart";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar></Navbar>
+      <AverageChart></AverageChart>
+      <DailyChart />
+      <footer>
+        <h4>Made with ❤️</h4>
+      </footer>
     </div>
   );
 }
-
 export default App;
